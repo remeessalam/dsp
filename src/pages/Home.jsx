@@ -7,6 +7,7 @@ import SubHeading from "../components/SubHeading";
 import { ReactComponent as Icon1 } from "../assets/svgs/services/Web Development.svg";
 import { ReactComponent as Icon2 } from "../assets/svgs/services/App Development.svg";
 import { ReactComponent as Icon3 } from "../assets/svgs/services/Machine Learning Solutions.svg";
+import gamedevelopment from "../assets/images/icons/game-development.png";
 import WorkProcess from "../components/WorkProcess";
 import ReactPlayer from "react-player";
 
@@ -44,7 +45,7 @@ const Home = () => {
             <p className="sub-heading !text-white">
               Welcome to{" "}
               <span className="text-white font-semibold block sm:inline">
-                AI Company
+                D S P Group
               </span>
             </p>
             <h1 className="heading capitalize">
@@ -52,12 +53,12 @@ const Home = () => {
               Technology
             </h1>
             <p className="sub-heading !text-white max-w-6xl">
-              At [Your Company Name], we’re driven by one simple mission: to
-              harness the power of technology to transform businesses and create
-              impactful digital experiences. Whether it’s an immersive gaming
-              experience, a seamless mobile app, or smart AI-driven solutions,
-              our team is here to help you innovate and succeed. We offer a full
-              range of services, from game development to web design, artificial
+              At D S P Group, we’re driven by one simple mission: to harness the
+              power of technology to transform businesses and create impactful
+              digital experiences. Whether it’s an immersive gaming experience,
+              a seamless mobile app, or smart AI-driven solutions, our team is
+              here to help you innovate and succeed. We offer a full range of
+              services, from game development to web design, artificial
               intelligence to UI/UX design, all crafted with precision and
               tailored to your specific needs.
             </p>
@@ -131,16 +132,18 @@ const Home = () => {
         </div>
         <div className="bg-primary rounded-lg backdrop-blur-sm text-background p-5">
           <div className="flex items-center gap-3 mb-4">
-            <Icon3
-              width="50"
-              height="50"
+            <img
+              src={gamedevelopment}
+              alt="icon"
               className="w-[4rem] h-[4rem] fill-secondary"
             />
-            <p className="text-lg leading-tight font-medium">AI Development</p>
+            <p className="text-lg leading-tight font-medium">
+              Game Development
+            </p>
           </div>
           <p className="desc">
-            Harness the power of AI to innovate and automate processes, driving
-            efficiency and intelligent decision-making.
+            In today’s highly competitive gaming world, creating an engaging and
+            memorable experience is key.
           </p>
         </div>
       </div>
@@ -181,7 +184,7 @@ const Home = () => {
                 </h2>
                 <p className="desc">
                   Welcome to{" "}
-                  <span className="font-medium text-primary">AI Company</span>,
+                  <span className="font-medium text-primary">D S P Group</span>,
                   where we combine creativity, innovation, and technology to
                   shape meaningful digital experiences. We’re a team of
                   passionate professionals dedicated to crafting custom

@@ -88,7 +88,7 @@ const OurValue = () => {
           </div>
           <div className="flex flex-col gap-2">
             <div className="flex justify-between gap-4">
-              <p className="">IT Consulting</p>
+              <p className="">Game Development</p>
               <p className="">90%</p>
             </div>
             <div className="w-full bg-white h-2 rounded-full overflow-hidden">

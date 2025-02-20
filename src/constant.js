@@ -13,6 +13,7 @@ import { ReactComponent as allServiceIcon3 } from "./assets/svgs/services/UIUX D
 import { ReactComponent as allServiceIcon4 } from "./assets/svgs/services/Chatbots.svg";
 import { ReactComponent as allServiceIcon5 } from "./assets/svgs/services/Machine Learning Solutions.svg";
 import { ReactComponent as allServiceIcon6 } from "./assets/svgs/services/Game Development.svg";
+import { ReactComponent as allServiceIcon7 } from "./assets/svgs/services/nlpdevelopment.svg";
 
 // app development services
 import { ReactComponent as appServiceIcon1 } from "./assets/svgs/services/iOS App Development.svg";
@@ -50,8 +51,11 @@ import RentopBikeAndCarImg from "./assets/app-development-portfolio/rentop bike 
 export { logoImg };
 
 export const companyDetails = {
-  phone: "+0000000000",
-  address: "ABC Street, City, Country",
+  phone: "+91-7021170343",
+  whatsappLink:
+    "https://api.whatsapp.com/send/?phone=7021170343&text&type=phone_number&app_absent=0",
+  address:
+    "House No. 718, Opp Ganpati Mandir, Kansai Gaon, Ambernath East, Mumbai, Maharashtra",
   email: "abc@xyz.com",
   linkedin: "",
   instagram: "",
@@ -161,49 +165,49 @@ export const testimonials = [
     id: 1,
     name: "Alex D.",
     position: "CEO, GameVibe Studios",
-    desc: '"Partnering with [Your Company Name] was a pivotal moment for us. We came to them with an idea for a mobile game, and they brought it to life in ways we hadn’t even imagined. Their creativity, technical expertise, and commitment to delivering a game that not only looks amazing but also provides a compelling, engaging experience really set them apart. The game’s success speaks volumes about their skills. We couldn’t be more satisfied with the outcome!"',
+    desc: '"Partnering with D S P Group was a pivotal moment for us. We came to them with an idea for a mobile game, and they brought it to life in ways we hadn’t even imagined. Their creativity, technical expertise, and commitment to delivering a game that not only looks amazing but also provides a compelling, engaging experience really set them apart. The game’s success speaks volumes about their skills. We couldn’t be more satisfied with the outcome!"',
   },
   {
     id: 2,
     name: "Sarah L.",
     position: "Product Manager, FinTech Solutions",
-    desc: '"From concept to launch, [Your Company Name] was a key partner in helping us build our mobile app. Their team was highly responsive, collaborative, and transparent throughout the entire process. The app they developed is sleek, functional, and intuitive, and it’s already making a positive impact on our user engagement. They truly understood our needs and delivered an app that exceeded our expectations. We couldn’t be more pleased with the final result."',
+    desc: '"From concept to launch, D S P Group was a key partner in helping us build our mobile app. Their team was highly responsive, collaborative, and transparent throughout the entire process. The app they developed is sleek, functional, and intuitive, and it’s already making a positive impact on our user engagement. They truly understood our needs and delivered an app that exceeded our expectations. We couldn’t be more pleased with the final result."',
   },
   {
     id: 3,
     name: "James H.",
     position: "COO, Retail Innovations",
-    desc: '"The AI solutions that [Your Company Name] developed for us have completely transformed our operations. Their team implemented machine learning models that helped us predict trends and optimize our decision-making, making our processes more efficient and data-driven. We’ve seen measurable improvements across the board, and their expertise in AI has truly set us apart from the competition. We’re so glad we chose them as our partner."',
+    desc: '"The AI solutions that D S P Group developed for us have completely transformed our operations. Their team implemented machine learning models that helped us predict trends and optimize our decision-making, making our processes more efficient and data-driven. We’ve seen measurable improvements across the board, and their expertise in AI has truly set us apart from the competition. We’re so glad we chose them as our partner."',
   },
   {
     id: 4,
     name: "Emily R.",
     position: "Marketing Director, Green Solutions",
-    desc: '"When we approached [Your Company Name] to redesign our website, we were looking for something fresh, functional, and user-friendly. They delivered exactly what we needed, creating a visually appealing site that performs seamlessly across all devices. The team’s attention to detail and commitment to creating an exceptional user experience really stood out. The new site has made a huge difference in how our customers interact with our brand. We are extremely happy with the results."',
+    desc: '"When we approached D S P Group to redesign our website, we were looking for something fresh, functional, and user-friendly. They delivered exactly what we needed, creating a visually appealing site that performs seamlessly across all devices. The team’s attention to detail and commitment to creating an exceptional user experience really stood out. The new site has made a huge difference in how our customers interact with our brand. We are extremely happy with the results."',
   },
   {
     id: 5,
     name: "Michael S.",
     position: "Head of Customer Support, GlobalTech",
-    desc: '"The NLP-powered chatbot that [Your Company Name] developed for us has made a huge difference in how we interact with our customers. It provides fast, accurate responses to inquiries, which has significantly improved customer satisfaction. The integration process was smooth, and the system is easy to maintain. We’re already seeing increased engagement and improved operational efficiency thanks to their innovative solutions."',
+    desc: '"The NLP-powered chatbot that D S P Group developed for us has made a huge difference in how we interact with our customers. It provides fast, accurate responses to inquiries, which has significantly improved customer satisfaction. The integration process was smooth, and the system is easy to maintain. We’re already seeing increased engagement and improved operational efficiency thanks to their innovative solutions."',
   },
   {
     id: 6,
     name: "Rachel T.",
     position: "Digital Experience Lead, HealthTech Innovations",
-    desc: '"The team at [Your Company Name] went above and beyond in designing the UI/UX for our product. They took the time to really understand our user base and created an interface that’s both visually stunning and incredibly intuitive. The user feedback has been overwhelmingly positive, and we’ve seen higher engagement levels since the new design was launched. Their approach was thoughtful, and the end result has made a significant impact on our business."',
+    desc: '"The team at D S P Group went above and beyond in designing the UI/UX for our product. They took the time to really understand our user base and created an interface that’s both visually stunning and incredibly intuitive. The user feedback has been overwhelmingly positive, and we’ve seen higher engagement levels since the new design was launched. Their approach was thoughtful, and the end result has made a significant impact on our business."',
   },
   {
     id: 7,
     name: "Jason W.",
     position: "Founder, Lifestyle Goods",
-    desc: '"The mobile app that [Your Company Name] developed for us has been a game-changer. Their team took our vision and turned it into a reality, delivering an app that works seamlessly, is user-friendly, and adds real value to our customers. The entire process, from development to launch, was smooth and efficient, and their ongoing support has been excellent. We’re proud of the final product and excited about the impact it’s having on our business."',
+    desc: '"The mobile app that D S P Group developed for us has been a game-changer. Their team took our vision and turned it into a reality, delivering an app that works seamlessly, is user-friendly, and adds real value to our customers. The entire process, from development to launch, was smooth and efficient, and their ongoing support has been excellent. We’re proud of the final product and excited about the impact it’s having on our business."',
   },
   {
     id: 8,
     name: "Karen M.",
     position: "CEO, Business Solutions Group",
-    desc: '"[Your Company Name] delivered exactly what we needed in terms of a custom web application. The project was a success from start to finish. They took the time to understand our specific needs and provided a solution that helped streamline our processes and improved our internal communications. The level of support they provided after the launch has been exceptional as well. I would highly recommend them for any web development project."',
+    desc: '"D S P Group delivered exactly what we needed in terms of a custom web application. The project was a success from start to finish. They took the time to understand our specific needs and provided a solution that helped streamline our processes and improved our internal communications. The level of support they provided after the launch has been exceptional as well. I would highly recommend them for any web development project."',
   },
 ];
 
@@ -215,14 +219,14 @@ export const allServices = [
     // link: "/game-development",
     description:
       "In today’s highly competitive gaming world, creating an engaging and memorable experience is key.",
-    icon: allServiceIcon1,
+    icon: allServiceIcon6,
     detailHeading:
       "Game Development: Bringing Your Ideas to Life with Interactive Experiences",
     detailContent: (
       <>
         <p>
           In today’s highly competitive gaming world, creating an engaging and
-          memorable experience is key. At AI Company, we specialize in crafting
+          memorable experience is key. At D S P Group, we specialize in crafting
           games that captivate players and leave a lasting impression. Whether
           you’re targeting mobile users or designing for the latest consoles,
           our team of developers, designers, and storytellers work together to
@@ -332,7 +336,7 @@ export const allServices = [
     // link: "/artificial-intelligence-development",
     description:
       "Artificial intelligence is reshaping industries, providing businesses with smarter, more efficient ways to operate.",
-    icon: allServiceIcon3,
+    icon: allServiceIcon5,
     detailHeading:
       "Artificial Intelligence (AI) Development: Empowering Innovation with Intelligent Solutions",
     detailContent: (
@@ -390,7 +394,7 @@ export const allServices = [
     title: "Web Development",
     link: "/web-development",
     description: "A strong online presence begins with a well-built website.",
-    icon: allServiceIcon4,
+    icon: allServiceIcon1,
     detailHeading: "Web Development: Building Digital Foundations for Success",
     detailContent: (
       <>
@@ -446,7 +450,7 @@ export const allServices = [
     // link: "/natural-language-processing",
     description:
       "Natural language processing allows machines to understand, interpret, and generate human language.",
-    icon: allServiceIcon5,
+    icon: allServiceIcon7,
     detailHeading:
       "Natural Language Processing (NLP): Unlocking the Power of Human Language",
     detailContent: (
@@ -505,7 +509,7 @@ export const allServices = [
     // link: "/ui-ux-design",
     description:
       "User experience (UX) and user interface (UI) design play a crucial role in the success of any digital product.",
-    icon: allServiceIcon6,
+    icon: allServiceIcon3,
     detailHeading:
       "UI/UX Design: Crafting Intuitive and Engaging Digital Experiences",
     detailContent: (

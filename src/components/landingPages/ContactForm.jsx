@@ -81,7 +81,7 @@ const ContactForm = () => {
             Get In Touch With Us!
           </h2>
           <p data-aos="fade-up" className="desc text-center max-w-[60rem]">
-            Let AI Company be the catalyst for your digital transformation.
+            Let D S P Group be the catalyst for your digital transformation.
             Together, we can build solutions that are as dynamic as your vision,
             helping your business reach new heights.
           </p>
@@ -89,6 +89,7 @@ const ContactForm = () => {
         <form
           onSubmit={handleSubmit(handleFormSubmit)}
           data-aos="fade-up"
+          data-aos-offset="-800"
           className="flex flex-col max-w-xl mx-auto gap-4 mt-7"
         >
           <div className="flex flex-col gap-1">

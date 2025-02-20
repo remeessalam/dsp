@@ -1,6 +1,6 @@
 import React from "react";
-import bgImg from "../assets/images/bg-img.webp";
-import bannerImg from "../assets/images/banner.webp";
+import bgImg from "../assets/images/bg-img.jpg";
+import bannerImg from "../assets/images/banner.jpg";
 import { Link } from "react-router-dom";
 
 const ConnectWithUs = () => {
@@ -15,12 +15,12 @@ const ConnectWithUs = () => {
           className="mx-5 rounded-xl overflow-hidden bg-center bg-cover relative shadow-inner shadow-primary/40"
           style={{ backgroundImage: `url(${bannerImg})` }}
         >
-          <div className="absolute top-0 w-full h-full bg-primary/15"></div>
+          <div className="absolute top-0 w-full h-full bg-black/55"></div>
           <div className="py-[3rem] px-5 bg-white/40 rounded-xl backdrop-blur-sm text-primary_text relative z-10">
-            <h1 className="heading-2_1 max-w-[60rem] mx-auto text-center">
+            <h1 className="heading-2_1 max-w-[60rem] mx-auto text-center !text-white">
               Let's Build Something Amazing Together! Connect with Us Today!
             </h1>
-            <p className="font-light max-w-[50rem] text-center mx-auto mt-3">
+            <p className="font-light max-w-[50rem] text-center mx-auto mt-3 text-white">
               Join us on a journey into the future of business—where innovation
               meets responsibility and success is built on a foundation of
               trust. Together, let’s unlock the potential of AI and transform
