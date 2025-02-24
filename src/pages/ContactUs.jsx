@@ -21,11 +21,7 @@ const ContactUs = () => {
               data-aos="fade-up"
               className="bg-primary/5 flex flex-col gap-3 text-primary items-center justify-center rounded-xl p-5"
             >
-              <MapPin
-                strokeWidth={2}
-                size={40}
-                className="inline"
-              />
+              <MapPin strokeWidth={2} size={40} className="inline" />
               <span className="text-center font-medium">
                 {companyDetails.address}
               </span>
@@ -33,7 +29,7 @@ const ContactUs = () => {
             <Link
               to={`mailto:${companyDetails.email}`}
               data-aos="fade-up"
-              className="bg-primary/5 flex flex-col gap-3 text-primary items-center justify-center rounded-xl p-5"
+              className="bg-primary/5 flex flex-col gap-3 text-primary items-center justify-center rounded-xl p-5 break-all "
             >
               <Mail strokeWidth={2} size={40} className="inline" />
               <span className="text-center font-medium">
