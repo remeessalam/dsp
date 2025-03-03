@@ -56,7 +56,7 @@ export const companyDetails = {
     "https://api.whatsapp.com/send/?phone=7021170343&text&type=phone_number&app_absent=0",
   address:
     "House No. 718, Opp Ganpati Mandir, Kansai Gaon, Ambernath East, Mumbai, Maharashtra",
-  email: "infodspgrouppvtltd@gmail.com",
+  email: "lunexatechnologies@gmail.com",
   linkedin: "https://x.com/DSP_GROUP_?s=09 ",
   instagram:
     "https://www.linkedin.com/in/vedant-kiran-patil-2a774134a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
