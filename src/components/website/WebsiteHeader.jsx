@@ -21,7 +21,7 @@ const WebsiteHeader = () => {
   };
 
   return (
-    <div className="py-4 fixed top-0 w-full bg-white/50 backdrop-blur-md z-50 text-black">
+    <div className="py-4 fixed top-0 w-full bg-black/50 backdrop-blur-md z-50 text-white">
       <div className="wrapper flex justify-between items-center gap-10">
         <div className="flex justify-between items-center gap-20 w-full">
           <Helmet>
@@ -46,8 +46,8 @@ const WebsiteHeader = () => {
             {navLinks.map((option) => (
               <NavLink
                 to={`${option.path}`}
-                className={`link ${
-                  option.path === pathname && "text-primary font-semibold"
+                className={`link hover:text-secondary ${
+                  option.path === pathname && "text-secondary font-semibold"
                 }`}
                 key={option.path}
               >

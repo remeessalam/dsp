@@ -34,7 +34,7 @@ const LandingHeader = () => {
   };
 
   return (
-    <div className="py-4 fixed top-0 w-full bg-background/50 backdrop-blur-md z-50 text-primary_text">
+    <div className="py-4 fixed top-0 w-full bg-black/50 backdrop-blur-md z-50 text-white">
       <div className="wrapper flex justify-between items-center gap-10">
         <div className="flex justify-between items-center gap-20 w-full pl-[1rem] lg:pl-0">
           <Helmet>
@@ -56,7 +56,7 @@ const LandingHeader = () => {
             />
           </Scroll>
           <div className="lg:flex items-center gap-10 hidden">
-            <Link to="/" className="link">
+            <Link to="/" className="link hover:text-secondary">
               Home
             </Link>
             {options
@@ -64,7 +64,7 @@ const LandingHeader = () => {
               .map((option) => (
                 <Scroll
                   to={`${option.path}`}
-                  className="link"
+                  className="link hover:text-secondary"
                   key={option.path}
                   spy={true}
                   smooth={true}

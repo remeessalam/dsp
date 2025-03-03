@@ -1,18 +1,12 @@
 import React from "react";
 import { companyDetails, logoImg } from "../../constant";
-import {
-  Instagram,
-  Linkedin,
-  Mail,
-  Phone,
-  Twitter,
-} from "lucide-react";
+import { Instagram, Linkedin, Mail, Phone, Twitter } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 const LandingFooter = () => {
   return (
-    <div className="py-[3rem]">
+    <div className="py-[3rem] bg-gray-400">
       <div className="wrapper flex lg:flex-row flex-col gap-7 justify-between">
         <div className="">
           <Helmet>
@@ -27,7 +21,7 @@ const LandingFooter = () => {
             alt="logo"
           />
           <div className="flex items-center gap-3 mt-5">
-          <Link
+            <Link
               aria-label="Contact us on Instagram"
               to={companyDetails.instagram}
               className="w-[2rem] h-[2rem] rounded-full p-2 bg-secondary hover:bg-primary text-primary_text hover:text-white hover:-translate-y-1 transition-all duration-300 flex justify-center items-center"

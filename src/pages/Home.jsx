@@ -45,7 +45,7 @@ const Home = () => {
             <p className="sub-heading !text-white">
               Welcome to{" "}
               <span className="text-white font-semibold block sm:inline">
-                D S P Group
+                LUNEXA TECHNOLOGIES
               </span>
             </p>
             <h1 className="heading capitalize">
@@ -53,12 +53,12 @@ const Home = () => {
               Technology
             </h1>
             <p className="sub-heading !text-white max-w-6xl">
-              At D S P Group, we’re driven by one simple mission: to harness the
-              power of technology to transform businesses and create impactful
-              digital experiences. Whether it’s an immersive gaming experience,
-              a seamless mobile app, or smart AI-driven solutions, our team is
-              here to help you innovate and succeed. We offer a full range of
-              services, from game development to web design, artificial
+              At LUNEXA TECHNOLOGIES, we’re driven by one simple mission: to
+              harness the power of technology to transform businesses and create
+              impactful digital experiences. Whether it’s an immersive gaming
+              experience, a seamless mobile app, or smart AI-driven solutions,
+              our team is here to help you innovate and succeed. We offer a full
+              range of services, from game development to web design, artificial
               intelligence to UI/UX design, all crafted with precision and
               tailored to your specific needs.
             </p>
@@ -184,8 +184,10 @@ const Home = () => {
                 </h2>
                 <p className="desc">
                   Welcome to{" "}
-                  <span className="font-medium text-primary">D S P Group</span>,
-                  where we combine creativity, innovation, and technology to
+                  <span className="font-medium text-primary">
+                    LUNEXA TECHNOLOGIES
+                  </span>
+                  , where we combine creativity, innovation, and technology to
                   shape meaningful digital experiences. We’re a team of
                   passionate professionals dedicated to crafting custom
                   solutions that help businesses thrive in the digital world.

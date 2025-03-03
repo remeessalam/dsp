@@ -72,10 +72,10 @@ const LeadForm = () => {
         Let's connect!
       </h2>
       <p data-aos="fade-up" className="desc text-center max-w-[55rem] mx-auto">
-        At D S P Group, we believe in the power of collaboration and shared
-        passion. We're not just a team of developers, we're your partners in
-        igniting your brand's unique potential. So, whether you're brimming with
-        ideas or just starting to spark, reach out and let's chat!
+        At LUNEXA TECHNOLOGIES, we believe in the power of collaboration and
+        shared passion. We're not just a team of developers, we're your partners
+        in igniting your brand's unique potential. So, whether you're brimming
+        with ideas or just starting to spark, reach out and let's chat!
       </p>
       <form
         onSubmit={handleSubmit(handleFormSubmit)}

@@ -14,8 +14,8 @@ import { Helmet } from "react-helmet";
 const WebsiteFooter = () => {
   const links = routes.filter((option) => option.path !== "/blogs/:id");
   return (
-    <div className="py-[3rem]">
-      <div className="wrapper flex lg:flex-row flex-col gap-7 sm:gap-14 justify-between">
+    <div className="py-[3rem] bg-gray-400">
+      <div className="wrapper flex lg:flex-row flex-col gap-7 sm:gap-14 justify-between ">
         <div className="">
           <Helmet>
             {/* Preload the logo image */}
@@ -29,10 +29,11 @@ const WebsiteFooter = () => {
             alt="logo"
           />
           <p className="desc text-sm max-w-[22rem] mt-3">
-            At D S P Group, we're dedicated to driving your business forward
-            with innovative software solutions. With a passion for technology
-            and a commitment to excellence, we specialize in delivering tailored
-            software products and services to meet your unique needs.
+            At LUNEXA TECHNOLOGIES, we're dedicated to driving your business
+            forward with innovative software solutions. With a passion for
+            technology and a commitment to excellence, we specialize in
+            delivering tailored software products and services to meet your
+            unique needs.
           </p>
           <div className="flex items-center gap-3 mt-5">
             <Link

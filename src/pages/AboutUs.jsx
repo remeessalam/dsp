@@ -68,9 +68,11 @@ const AboutUs = () => {
               </h2>
               <p className="desc">
                 Welcome to{" "}
-                <span className="font-medium text-primary">D S P Group</span>,
-                where we combine creativity, innovation, and technology to shape
-                meaningful digital experiences. We’re a team of passionate
+                <span className="font-medium text-primary">
+                  LUNEXA TECHNOLOGIES
+                </span>
+                , where we combine creativity, innovation, and technology to
+                shape meaningful digital experiences. We’re a team of passionate
                 professionals dedicated to crafting custom solutions that help
                 businesses thrive in the digital world. Whether it's developing
                 engaging games, building powerful apps, or implementing smart AI
@@ -163,7 +165,7 @@ const AboutUs = () => {
               <SubHeading heading="Our Expert Team" />
               <h2 className="heading-2">Meet Our Team</h2>
               <p className="desc">
-                At <b>D S P Group</b>, our team is at the heart of every
+                At <b>LUNEXA TECHNOLOGIES</b>, our team is at the heart of every
                 solution we provide. Combining expertise, innovation, and a deep
                 commitment to client success, our professionals are dedicated to
                 transforming complex challenges into seamless experiences. From
